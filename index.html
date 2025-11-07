@@ -1,0 +1,712 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Angelly Mora Portafolio</title>
+    <link rel="icon" href="ASSETS/img/logoo.png" type="image/png" sizes="48x48">
+    <!-- AOS CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    <!-- Fullpage -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/fullpage.min.css" />
+    <!-- CSS -->
+    <link rel="stylesheet" href="CSS/style.css">
+
+</head>
+
+<body>
+    <header>
+        <!-- Nav -->
+        <div class="nav-container">
+
+            <!-- Nav del lado izquierdo -->
+            <ul class="nav-desktop left">
+                <li><a id="nav-home" href="#" class="link-hero active">Inicio</a></li>
+                <li><a id="nav-about" href="#" class="link-sobre-mi">Sobre mi</a></li>
+            </ul>
+            <!-- Logo -->
+            <a href="#"><img src="./ASSETS/iconos/logo.svg"
+                    alt="Un lazo rosado con el nombre de Angelly Mora Sánchez y su profesion" width="130px"
+                    class="logo decoracion-clara"></a>
+            <a href="#"><img src="./ASSETS/iconos/logo-oscuro.svg"
+                    alt="Un lazo rosado con el nombre de Angelly Mora Sánchez y su profesion" width="130px"
+                    class="logo decoracion-oscura"></a>
+            <!-- Navegación del lado derecho -->
+            <ul class="nav-desktop right">
+                <li><a id="nav-projects" href="#" class="link-proyectos">Proyectos</a></li>
+                <li><a id="nav-contact" href="#" class="link-contacto">Contacto</a></li>
+            </ul>
+            <!-- Botón de hamburguesa -->
+            <div class="hamburger" id="hamburger">
+                <img src="./ASSETS/iconos/hamburguesa.svg"
+                    alt="tres rayas horizontales de color fucsia que hacer la creacion de un menu de hamburguesa">
+            </div>
+            <!-- Navegación para móvil/tablet -->
+            <div class="nav-mobile" id="navMobile">
+                <!-- Icono de cerrar -->
+                <div class="close-menu" id="closeMenu">
+                    <img src="./ASSETS/iconos/cerrar.svg" alt="Cerrar menú">
+                </div>
+                <!-- Menú -->
+                <a href="#inicio" class="link-hero">Inicio</a>
+                <a href="#sobre-mi" class="link-sobre-mi">Sobre mi</a>
+                <a href="#proyectos" class="link-proyectos">Proyectos</a>
+                <a href="#herramientas" class="link-habilidades">Habilidades</a>
+                <a href="#contacto" class="link-contacto">Contacto</a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <!-- Sección del Banner -->
+        <section class="hero">
+            <img src="ASSETS/iconos/rayitas_arriba.svg" alt="tres ondas de rayas de color café"
+                class="raya-superior-derecha decoracion-clara">
+            <img src="ASSETS/iconos/rayitas_arriba_oscuro.svg" alt="tres ondas de rayas de color café"
+                class="raya-superior-derecha decoracion-oscura">
+            <img src="ASSETS/iconos/rayitas_abajo.svg" alt="tres ondas de rayas de color café"
+                class="raya-inferior-izquierda decoracion-clara">
+            <img src="ASSETS/iconos/rayitas_abajo_oscuro.svg" alt="tres ondas de rayas de color café"
+                class="raya-inferior-izquierda decoracion-oscura">
+            <article class="banner">
+                <div class="info-banner">
+                    <h1 id="hero-title">Mi<br><span>Portafolio</span></h1>
+                    <p id="hero-subtitle" class="parrafo-banner">Entre pixeles, colores y sueños</p>
+                    <div class="boton">
+                        <button class="btn-contacto">
+                            <div>Descubrir</div>
+                        </button>
+                        <button class="btn-contacto pdf">
+                            <div>
+                                <a href="#">Descargar</a>
+                            </div>
+                        </button>
+                    </div>
+                </div>
+                <div class="img-banner">
+                    <img src="ASSETS/img/banner.png" alt="foto de la creadora Angelly, vestida de blanco"
+                        class="banner-img">
+                </div>
+                <div class="contenedor-redes">
+                    <a href="https://www.instagram.com/angelly_mora/?igsh=MXc3eHF2YXU3bjU3MA%3D%3D#"><img
+                            src="ASSETS/iconos/instagram.svg" alt="redes sociales" class="redes_banner decoracion-clara"
+                            target="_blank"></a>
+                    <a href="https://www.behance.net/angellymoras"><img src="ASSETS/iconos/behance.svg"
+                            alt="redes sociales" class="redes_banner decoracion-clara" target="_blank"></a>
+                    <a href="https://github.com/moras711"><img src="ASSETS/iconos/github.svg" alt="redes sociales"
+                            class="redes_banner decoracion-clara" target="_blank"></a>
+                    <a href=" https://www.instagram.com/angelly_mora/?igsh=MXc3eHF2YXU3bjU3MA%3D%3D#"><img
+                            src="ASSETS/iconos/instagram-oscuro.svg" alt="redes sociales"
+                            class="redes_banner decoracion-oscura" target="_blank"></a>
+                    <a href="https://www.behance.net/angellymoras"><img src="ASSETS/iconos/behance-oscuro.svg"
+                            alt="redes sociales" class="redes_banner decoracion-oscura" target="_blank"></a>
+                    <a href="https://github.com/moras711"><img src="ASSETS/iconos/github.-oscuro.svg"
+                            alt="redes sociales" class="redes_banner decoracion-oscura" target="_blank"></a>
+                </div>
+            </article>
+        </section>
+        <!-- Sección sobre mi -->
+        <section class="sobre-mi" data-aos="fade-up">
+            <img src="ASSETS/iconos/destellos.svg"
+                alt="tres destellos de color café que le dan un toque femenino a la sección"
+                class="destello-superior-derecha decoracion-clara">
+            <img src="ASSETS/iconos/destellos_oscuro.svg"
+                alt="tres destellos de color café que le dan un toque femenino a la sección"
+                class="destello-superior-derecha decoracion-oscura">
+            <img src="ASSETS/iconos/destellos.svg"
+                alt="tres destellos de color café que le dan un toque femenino a la sección"
+                class="destello-inferior-izquierda decoracion-clara">
+            <img src="ASSETS/iconos/destellos_oscuro.svg"
+                alt="tres destellos de color café que le dan un toque femenino a la sección"
+                class="destello-inferior-izquierda decoracion-oscura">
+            <article class="mi-contenedor">
+                <div class="img-sobremi">
+                    <img src="ASSETS/img/SOBREMI.png"
+                        alt=" foto de la creadora con los brazos cruzados, vestida de blanco con joyas doradas"
+                        class="sobremi-img">
+                </div>
+                <div class="info-sobremi" data-aos="fade-up">
+                    <h2 id="hero-aboutme">¿Quién <br><span>Es esta</span><br>Chica?</h2>
+                    <p id="p-aboutme" class="p-sm">¡Hola! Soy Angelly Mora Sánchez, y soy diseñadora y programadora web.
+                        Me apasiona
+                        transformar ideas en experiencias digitales. Me especializo en diseñar interfaces limpias,
+                        elegantes y con personalidad, y disfruto darles vida a través del código para que sean
+                        accesibles y memorables. Te invito a ver mi video para que me conozcas un poquito más</p>
+                    <!-- From Uiverse.io by catraco -->
+                    <div class="botoon">
+                        <button class="btn-sobremi">
+                            <div id="btn-aboutme"><a href="https://youtu.be/xaW41Q6Q4_c" target="_blank">Ver mi
+                                    video</a></div>
+                        </button>
+                    </div>
+                </div>
+            </article>
+        </section>
+        <!-- Sección de Proyectos -->
+        <section class="proyectos">
+            <article class="rayas-proyecto">
+                <img src="ASSETS/iconos/rayitas_arriba.svg" alt="tres ondas de rayas de color café"
+                    class="raya-proyectos decoracion-clara">
+                <img src="ASSETS/iconos/rayitas_arriba_oscuro.svg" alt="tres ondas de rayas de color café"
+                    class="raya-proyectos decoracion-oscura">
+            </article>
+            <article class="titulo-proyecto">
+                <!-- Destellos -->
+                <div class="contenedor-titulo">
+                    <div class="destello-arriba">
+                        <img src="ASSETS/iconos/destello-arriba.svg"
+                            alt=" destello de color café que le dan un toque femenino a la sección"
+                            class="destellito-arriba decoracion-clara">
+                        <img src="ASSETS/iconos/destello-oscuro.svg"
+                            alt=" destello de color café que le dan un toque femenino a la sección"
+                            class="destellito-arriba decoracion-oscura">
+                    </div>
+                    <div class="destello-abajo">
+                        <img src="ASSETS/iconos/destello-abajo.svg"
+                            alt=" destello de color café que le dan un toque femenino a la sección"
+                            class="destellito-abajo decoracion-clara">
+                        <img src="ASSETS/iconos/destello-oscuro.svg"
+                            alt=" destello de color café que le dan un toque femenino a la sección"
+                            class="destellito-abajo decoracion-oscura">
+                    </div>
+                    <!-- Destellos -->
+                    <div class="rayita-arriba">
+                        <img src="ASSETS/iconos/linea-arriba.svg" alt="una linea vertical color café"
+                            class="linea-arriba decoracion-clara">
+                        <img src="ASSETS/iconos/linea-arriba-oscurasvg.svg" alt="una linea vertical color café"
+                            class="linea-arriba decoracion-oscura">
+                    </div>
+                    <h2 id="hero-proyects" class="h2" data-aos="fade-up">P <br> R <br> O <br> Y <br> E <br> C <br> T
+                        <br> O <br> S
+                    </h2>
+                    <div class="rayita-abajo">
+                        <img src="ASSETS/iconos/linea-abajo.svg" alt="una linea vertical color café"
+                            class="linea-abajo decoracion-clara">
+                        <img src="ASSETS/iconos/linea-abajo-oscura.svg" alt="una linea vertical color café"
+                            class="linea-abajo decoracion-oscura">
+
+                    </div>
+                </div>
+            </article>
+            <article class="contenedor-proyectos">
+                <div class="parte-arriba" data-aos="fade-up">
+                    <!-- Proyecto 1 -->
+                    <div class="proyecto">
+                        <div class="proyecto-img">
+                            <img src="ASSETS/img/Header-laruta.jpg" alt="Proyecto La Ruta" class="la-ruta">
+                            <div class="overlay">
+                                <a href="https://la-ruta-utqg.vercel.app/" target="_blank" class="btn-ver">Ver sitio</a>
+                            </div>
+                        </div>
+                        <p id="p-proone">
+                            La ruta del café es un sitio web el cual muestra un maratón de ciclismo creado en la Zona de
+                            los Santos,
+                            con 3 días de competencia y grandes desafíos. Muestra todo lo necesario para los
+                            participantes:
+                            paquetes, patrocinadores, entre muchas cosas más.
+                        </p>
+                    </div>
+                    <!-- Proyecto 2 -->
+                    <div class="proyecto">
+                        <div class="proyecto-img">
+                            <img src="ASSETS/img/header-hiphop.jpg" alt="Proyecto Devuelta al Flow">
+                            <div class="overlay">
+                                <a href="#" class="btn-ver">Ver sitio</a>
+                            </div>
+                        </div>
+                        <p id="p-protwo">
+                            Devuelta al flow, así como lo dice su logo, es un sitio web donde nos devolvemos a la
+                            historia, vida y música de los genios y grandes artistas del hip hop, muestra su historia,
+                            su moda, sus culturas, sus bandas y el renacimiento de este estilo de vida legendaria.
+                        </p>
+                    </div>
+                    <!-- Proyecto 3 -->
+                    <div class="proyecto">
+                        <div class="proyecto-img">
+                            <img src="ASSETS/img/header-fitforce.jpg" alt="Proyecto Fit Force">
+                            <div class="overlay">
+                                <a href="https://fit-force-gamma.vercel.app/" target="_blank" class="btn-ver">Ver
+                                    sitio</a>
+                            </div>
+                        </div>
+                        <p id="p-protree">
+                            Fit Force, es un sitio web creado para inspirar y atraer personas que quieran mejorar su
+                            fisico y su alma. Un gimnasio moderno y llamativo para personas que quieran transformar su
+                            mente, su cuerpo y su vida. Donde lo que los mueve es la disciplina, la constancia y el
+                            deseo de superación.
+                        </p>
+                    </div>
+                </div>
+                <div class="parte-abajo" data-aos="fade-up">
+                    <div class="proyecto">
+                        <div class="proyecto-img">
+                            <img src="ASSETS/img/congreso.jpg" alt="Proyecto Harper's">
+                            <div class="overlay">
+                                <a href="https://congreso-de-cafe.vercel.app/" target="_blank" class="btn-ver">Ver
+                                    sitio</a>
+                            </div>
+                        </div>
+                        <p id="p-profor">
+                            Congreso de Cultivo de Café es una página creada en conjuto de mis compañeros de clase, con
+                            el objetivo de informar sobre dicho congreso que se iba a realizar, esto para que los
+                            participantes estuvieran al tanto de todo lo que se iba a realizar
+                    </div>
+                    <div class="proyecto">
+                        <div class="proyecto-img">
+                            <img src="ASSETS/img/Header-echelemiel.jpg" alt="Proyecto Échele Miel">
+                            <div class="overlay">
+                                <a href="#" class="btn-ver">Ver sitio</a>
+                            </div>
+                        </div>
+                        <p id="p-profive">
+                            Echele miel una aplicación móvil sobre una ecommerce sobre unos emprendedores de miel,
+                            cuenta sus etiquetas llenas de amor familiar, y los diferentes productos creados a base de
+                            miel de abeja 100% pura.
+                        </p>
+                    </div>
+                </div>
+            </article>
+        </section>
+        <!-- Sección de certificados -->
+        <section class="certificaciones">
+            <article class="contenedor-rayas">
+                <article class="raya-arriba-cer">
+                    <img src="ASSETS/iconos/rayitas_arriba.svg" alt="tres ondas de rayas de color café"
+                        class="raya-arriba-certi decoracion-clara">
+                    <img src="ASSETS/iconos/rayitas_arriba_oscuro.svg" alt="tres ondas de rayas de color café"
+                        class="raya-arriba-certi decoracion-oscura">
+                </article>
+                <article class="raya-abajo-cer">
+                    <img src="ASSETS/iconos/rayitas_abajo.svg" alt="tres ondas de rayas de color café"
+                        class="raya-abajo-certi decoracion-clara">
+                    <img src="ASSETS/iconos/rayitas_abajo_oscuro.svg" alt="tres ondas de rayas de color café"
+                        class="raya-abajo-certi decoracion-oscura">
+                </article>
+            </article>
+            <article class="titulo-certificado">
+                <div class="contenedor-titulo">
+                    <div class="destello-derecha">
+                        <img src="ASSETS/iconos/destello-arriba.svg"
+                            alt=" destello de color café que le dan un toque femenino a la sección"
+                            class="destellito-derecha-arriba decoracion-clara">
+                        <img src="ASSETS/iconos/destello-oscuro.svg"
+                            alt=" destello de color café que le dan un toque femenino a la sección"
+                            class="destellito-derecha-arriba decoracion-oscura">
+                    </div>
+                    <h2 class="h2-certificaciones" id="hero-cer">Certificaciones</h2>
+                    <div class="destello-izquierda">
+                        <img src="ASSETS/iconos/destello-abajo.svg"
+                            alt=" destello de color café que le dan un toque femenino a la sección"
+                            class="destellito-izquierda-abajo decoracion-clara">
+                        <img src="ASSETS/iconos/destello-oscuro.svg"
+                            alt=" destello de color café que le dan un toque femenino a la sección"
+                            class="destellito-izquierda-abajo decoracion-oscura">
+                    </div>
+                </div>
+            </article>
+            <article class="img-certificaciones">
+                <img src="ASSETS/img/certificaciones.jpg" alt="un titulo" class="certi-img izquierda">
+                <img src="ASSETS/img/certificaciones.jpg" alt="un titulo" class="certi-img derecha">
+            </article>
+        </section>
+
+        <!-- Seccion de herramientas -->
+        <section class="habilidades">
+            <article class="contenedor-rayas">
+                <article class="raya-arriba-cer">
+                    <img src="ASSETS/iconos/rayitas_arriba.svg" alt="tres ondas de rayas de color café"
+                        class="raya-arriba-certi decoracion-clara">
+                    <img src="ASSETS/iconos/rayitas_arriba_oscuro.svg" alt="tres ondas de rayas de color café"
+                        class="raya-arriba-certi decoracion-oscura">
+                </article>
+                <article class="raya-abajo-cer">
+                    <img src="ASSETS/iconos/rayitas_abajo.svg" alt="tres ondas de rayas de color café"
+                        class="raya-abajo-certi decoracion-clara">
+                    <img src="ASSETS/iconos/rayitas_abajo_oscuro.svg" alt="tres ondas de rayas de color café"
+                        class="raya-abajo-certi decoracion-oscuro">
+                </article>
+            </article>
+            <article class="titulo-habilidades">
+                <div class="contenedor-habilidades">
+                    <div class="destello-derecha-h">
+                        <img src="ASSETS/iconos/destello-arriba.svg"
+                            alt=" destello de color café que le dan un toque femenino a la sección"
+                            class="destellito-arriba-habi decoracion-clara">
+                        <img src="ASSETS/iconos/destello-oscuro.svg"
+                            alt=" destello de color café que le dan un toque femenino a la sección"
+                            class="destellito-arriba-habi decoracion-oscura">
+                    </div>
+                    <h2 class="h2-habilidades" id="hero-skills">Habilidades De Software</h2>
+                    <div class="destello-izquierda-h">
+                        <img src="ASSETS/iconos/destello-abajo.svg"
+                            alt=" destello de color café que le dan un toque femenino a la sección"
+                            class="destellito-abajo-habi decoracion-clara">
+                        <img src="ASSETS/iconos/destello-oscuro.svg"
+                            alt=" destello de color café que le dan un toque femenino a la sección"
+                            class="destellito-abajo-habi decoracion-oscura">
+                    </div>
+                </div>
+            </article>
+            <article class="contenedor-herramientas">
+                <article class="izquierda">
+                    <div class="uno iconoo">
+                        <div class="icono-img">
+                            <img src="ASSETS/iconos/visual.svg" alt="icono claro" class="decoracion-clara">
+                            <img src="ASSETS/iconos/visual-oscuro.svg" alt="icono oscuro" class="decoracion-oscura">
+                        </div>
+                        <p class="icono-uno">85%</p>
+                    </div>
+                    <div class="dos iconoo">
+                        <div class="icono-img">
+                            <img src="ASSETS/iconos/js.svg" alt="icono claro" class="decoracion-clara">
+                            <img src="ASSETS/iconos/js-oscuro.svg" alt="icono oscuro" class="decoracion-oscura">
+                        </div>
+                        <p class="icono-dos">15%</p>
+                    </div>
+                    <div class="tres iconoo">
+                        <div class="icono-img">
+                            <img src="ASSETS/iconos/ilustrador.svg" alt="icono claro" class="decoracion-clara">
+                            <img src="ASSETS/iconos/ilustrador-oscuro.svg" alt="icono oscuro" class="decoracion-oscura">
+                        </div>
+                        <p class="icono-tres">75%</p>
+                    </div>
+                    <div class="cuatro iconoo">
+                        <div class="icono-img">
+                            <img src="ASSETS/iconos/figma.svg" alt="icono claro" class="decoracion-clara">
+                            <img src="ASSETS/iconos/figma-oscuro.svg" alt="icono oscuro" class="decoracion-oscura">
+                        </div>
+                        <p class="icono-cuatro">70%</p>
+                    </div>
+                    <div class="cinco iconoo">
+                        <div class="icono-img">
+                            <img src="ASSETS/iconos/php.svg" alt="icono claro" class="decoracion-clara">
+                            <img src="ASSETS/iconos/php-oscuro.svg" alt="icono oscuro" class="decoracion-oscura">
+                        </div>
+                        <p class="icono-cinco">20%</p>
+                    </div>
+                    <div class="seis iconoo">
+                        <div class="icono-img">
+                            <img src="ASSETS/iconos/react.svg" alt="icono claro" class="decoracion-clara">
+                            <img src="ASSETS/iconos/react-oscuro.svg" alt="icono oscuro" class="decoracion-oscura">
+                        </div>
+                        <p class="icono-seis">10%</p>
+                    </div>
+                </article>
+                <article class="img-habilidades">
+                    <img src="ASSETS/img/herramientas.png"
+                        alt=" foto de la creadora con los brazos cruzados, vestida de blanco con joyas doradas"
+                        class="habilidades-img">
+                </article>
+                <article class="derecha">
+                    <div class="siete iconoo">
+                        <div class="icono-img">
+                            <img src="ASSETS/iconos/bd.svg" alt="icono claro" class="decoracion-clara">
+                            <img src="ASSETS/iconos/bd-oscuro.svg" alt="icono oscuro" class="decoracion-oscura">
+                        </div>
+                        <p class="icono-siete">40%</p>
+                    </div>
+                    <div class="ocho iconoo">
+                        <div class="icono-img">
+                            <img src="ASSETS/iconos/indesing.svg" alt="icono claro" class="decoracion-clara">
+                            <img src="ASSETS/iconos/indesing-oscuro.svg" alt="icono oscuro" class="decoracion-oscura">
+                        </div>
+                        <p class="icono-ocho">30%</p>
+                    </div>
+                    <div class="nueve iconoo">
+                        <div class="icono-img">
+                            <img src="ASSETS/iconos/photoshop.svg" alt="icono claro" class="decoracion-clara">
+                            <img src="ASSETS/iconos/photoshop-oscuro.svg" alt="icono oscuro" class="decoracion-oscura">
+                        </div>
+                        <p class="icono-nueve">50%</p>
+                    </div>
+                    <div class="diez iconoo">
+                        <div class="icono-img">
+                            <img src="ASSETS/iconos/elementor.svg" alt="icono claro" class="decoracion-clara">
+                            <img src="ASSETS/iconos/elementor-oscuro.svg" alt="icono oscuro" class="decoracion-oscura">
+                        </div>
+                        <p class="icono-diez">80%</p>
+                    </div>
+                    <div class="once iconoo">
+                        <div class="icono-img">
+                            <img src="ASSETS/iconos/wordpress.svg" alt="icono claro" class="decoracion-clara">
+                            <img src="ASSETS/iconos/wordpress-oscuro.svg" alt="icono oscuro" class="decoracion-oscura">
+                        </div>
+                        <p class="icono-once">80%</p>
+                    </div>
+                    <div class="doce iconoo">
+                        <div class="icono-img">
+                            <img src="ASSETS/iconos/premier.svg" alt="icono claro" class="decoracion-clara">
+                            <img src="ASSETS/iconos/premier-oscuro.svg" alt="icono oscuro" class="decoracion-oscura">
+                        </div>
+                        <p class="icono-doce">20%</p>
+                    </div>
+                </article>
+            </article>
+        </section>
+        <!-- Sección de servicios -->
+        <section class="servicios" data-aos="fade-up">
+            <article class="destellos-servicios">
+                <article class="servi-arriba">
+                    <img src="ASSETS/iconos/tres-destellos.svg" alt="tres destellos de color café"
+                        class="destello-servi-arriba decoracion-clara">
+                    <img src="ASSETS/iconos/tres-destellos-oscuro.svg" alt="tres destellos de color café"
+                        class="destello-servi-arriba decoracion-oscura">
+                </article>
+                <article class="servi-abajo">
+                    <img src="ASSETS/iconos/tres-destellos.svg" alt="tres destellos de color café"
+                        class="destello-servi-abajo decoracion-clara">
+                    <img src="ASSETS/iconos/tres-destellos-oscuro.svg" alt="tres destellos de color café"
+                        class="destello-servi-abajo decoracion-oscura">
+                </article>
+            </article>
+            <article class="titulo-serv">
+                <article class="arriba">
+                    <img src="ASSETS/iconos/arriba.svg" alt="Linea horizontal color café"
+                        class="ser-arriba decoracion-clara" width="260px">
+                    <img src="ASSETS/iconos/arriba-oscura.svg" alt="Linea horizontal color café"
+                        class="ser-arriba decoracion-oscura" width="260px">
+                </article>
+                <article class="servh2">
+                    <h2 class="ser-h2">Servicios</h2>
+                </article>
+                <article class="abajo">
+                    <img src="ASSETS/iconos/abajo.svg" alt="Linea horizontal color café"
+                        class="ser-abajo decoracion-clara" width="260px">
+                    <img src="ASSETS/iconos/abajo-oscuro.svg" alt="Linea horizontal color café"
+                        class="ser-abajo decoracion-oscura" width="260px">
+                </article>
+            </article>
+            <article class="cuadro">
+                <article class="contenedor-servicios">
+                    <article class="img-ser">
+                        <img src="ASSETS/img/servicios.png" alt="imagen de la creadora en una silla" class="ser-img">
+                    </article>
+                    <article class="general">
+                        <article class="info1">
+                            <h3 class="h3-servicios" id="h3-services1">
+                                Diseño & Branding
+                            </h3>
+                            <p class="p-servicios primero" id="p-services1">Creación de logotipos e identidad visual,
+                                manual de marca
+                                (lineamientos de uso de logo, paleta de colores, tipografías, estilo visual), papelería
+                                corporativa (tarjetas, sobres, facturas,
+                                plantillas), diseño de empaques y etiquetas y rediseño y modernización de marca.
+                                Asesoría en branding digital.</p>
+                        </article>
+                        <article class="info2">
+                            <h3 class="h3-servicios segundo" id="h3-services2">
+                                Web & Digital
+                            </h3>
+                            <p class="p-servicios sengundo" id="p-services2">Wireframes y estructuras funcionales para
+                                sitios web o apps,
+                                diseño de interfaces modernas y responsivas (adaptadas a cualquier dispositivo).
+                                Creación de landing pages para campañas o lanzamientos. Optimización del diseño UX/UI
+                                centrado en la experiencia del usuario. Programación de aplicaciones web interactivas,
+                                mantenimiento y actualización de sitios web.</p>
+                        </article>
+                    </article>
+                </article>
+            </article>
+        </section>
+        <!-- Sección de contacto -->
+        <section class="contacto">
+            <article class="contenedor-rayas">
+                <article class="raya-abajo-cer">
+                    <img src="ASSETS/iconos/ondas.svg" alt="tres ondas de rayas de color café"
+                        class="raya-abajo-contacto decoracion-clara">
+                    <img src="ASSETS/iconos/ondas-oscuro.svg" alt="tres ondas de rayas de color café"
+                        class="raya-abajo-contacto decoracion-oscura">
+                </article>
+            </article>
+            <article class="descargar">
+                <img src="ASSETS/iconos/tres-destellos.svg" alt="tres destellos cafes" width="20px"
+                    class="icono-descargar-izquierda decoracion-clara">
+                <img src="ASSETS/iconos/tres-destellos-oscuro.svg" alt="tres destellos cafes" width="20px"
+                    class="icono-descargar-izquierda decoracion-oscuro">
+                <p id="p-descarga" class="p-descargar pdf">Mi curriculum lo puedes encontrar por <a href="#"
+                        class="descargar" download>aquí</a>
+                </p>
+                <img src="ASSETS/iconos/tres-destellos.svg" alt="tres destellos cafes" width="20px"
+                    class="icono-descargar-derecha decoracion-clara">
+                <img src="ASSETS/iconos/tres-destellos-oscuro.svg" alt="tres destellos cafes" width="20px"
+                    class="icono-descargar-derecha decoracion-oscuro">
+                <article class="h3-contact">
+                    <h3 id="hero-contact">Contáctame a través del siguiente formulario y <br> me comunicaré contigo tan
+                        pronto como
+                        <br> pueda.
+                    </h3>
+                </article>
+            </article>
+            <article class="general-contacto">
+                <div class="personal-info">
+                    <div class="email">
+                        <h4 class="h4-contacto" id="emai">
+                            Email
+                        </h4>
+                        <p id="p-email">angempubli@gmail.com</p>
+                    </div>
+                    <div class="email">
+                        <h4 class="h4-contacto" id="telefono">
+                            Telefono
+                        </h4>
+                        <p>+506 86796081</p>
+                    </div>
+                    <div class="email">
+                        <h4 class="h4-contacto" id="p-redes">
+                            Redes sociales
+                        </h4>
+                        <a href="https://www.instagram.com/angelly_mora/?igsh=MXc3eHF2YXU3bjU3MA%3D%3D#"><img
+                                src="ASSETS/iconos/instagram.svg" alt="redes sociales"
+                                class="redes_banner decoracion-clara" target="_blank"></a>
+                        <a href="https://www.behance.net/angellymoras"><img src="ASSETS/iconos/behance.svg"
+                                alt="redes sociales" class="redes_banner decoracion-clara" target="_blank"></a>
+                        <a href="https://github.com/moras711"><img src="ASSETS/iconos/github.svg" alt="redes sociales"
+                                class="redes_banner decoracion-clara" target="_blank"></a>
+                        <a href="https://www.instagram.com/angelly_mora/?igsh=MXc3eHF2YXU3bjU3MA%3D%3D#"><img
+                                src="ASSETS/iconos/instagram-oscuro.svg" alt="redes sociales"
+                                class="redes_banner decoracion-oscura" target="_blank"></a>
+                        <a href="https://www.behance.net/angellymoras"><img src="ASSETS/iconos/behance-oscuro.svg"
+                                alt="redes sociales" class="redes_banner decoracion-oscura" target="_blank"></a>
+                        <a href="https://github.com/moras711"><img src="ASSETS/iconos/github.-oscuro.svg"
+                                alt="redes sociales" class="redes_banner decoracion-oscura" target="_blank"></a>
+
+                    </div>
+                </div>
+                <div class="linea-contacto">
+                    <div class="line-contact">
+                        <img src="ASSETS/iconos/linea-contacto.svg"
+                            alt="linea vertical de color café que separa secciones"
+                            class="linea-de-contacto decoracion-clara">
+                        <img src="ASSETS/iconos/linea-contacto-oscura.svg"
+                            alt="linea vertical de color café que separa secciones"
+                            class="linea-de-contacto decoracion-oscura">
+                    </div>
+                </div>
+                <div class="formulario">
+                    <form>
+                        <input type="text" placeholder="Nombre:" required id="input-name">
+                        <input type="tel" placeholder="Teléfono:" required id="input-phone">
+                        <input type="email" placeholder="Email:" required id="input-email">
+                        <textarea placeholder="Mensaje:" required id="input-msj"></textarea>
+                        <!-- <button type="submit">Enviar</button> -->
+                        <div class="botoon-contacto">
+                            <button class="btn-contacto">
+                                <div id="btn-contact">Contáctame</div>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </article>
+            <div class="destellitos-contacto">
+                <div class="contact-deste">
+                    <img src="ASSETS/iconos/tres-destellos.svg" alt="tres destellos de color cafe"
+                        class="destello-de-contacto decoracion-clara">
+                    <img src="ASSETS/iconos/tres-destellos-oscuro.svg" alt="tres destellos de color cafe"
+                        class="destello-de-contacto decoracion-oscuro">
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <article class="footer">
+            <div class="desc">
+                <h4 h4 class="footer-desc" id="hero-des">Descarga</h4>
+                <img src="ASSETS/iconos/linea-footer.svg" alt="linea horizontal de color café"
+                    class="linea-footer decoracion-clara">
+                <img src="ASSETS/iconos/linea-footer-oscuro.svg" alt="linea horizontal de color café"
+                    class="linea-footer decoracion-oscura">
+                <a href="#" class="a-footer pdf" id="p-des" download>Mi curriculum</a>
+            </div>
+            <div class="logo-footer">
+                <img src="ASSETS/iconos/logo.svg" alt="logo de color rosado en forma de un lazo"
+                    class="img-logo decoracion-clara" width="1900px">
+                <img src="ASSETS/iconos/logo-oscuro.svg" alt="logo de color rosado en forma de un lazo"
+                    class="img-logo decoracion-oscura">
+                <div class="redes-footer">
+                    <a href="https://www.instagram.com/angelly_mora/?igsh=MXc3eHF2YXU3bjU3MA%3D%3D#"><img
+                            src="ASSETS/iconos/instagram.svg" alt="redes sociales" class="redes_banner decoracion-clara"
+                            target="_blank"></a>
+                    <a href="https://www.instagram.com/angelly_mora/?igsh=MXc3eHF2YXU3bjU3MA%3D%3D#"><img
+                            src="ASSETS/iconos/instagram-oscuro.svg" alt="redes sociales"
+                            class="redes_banner decoracion-oscura" target="_blank"></a>
+                    <a href="https://www.behance.net/angellymoras"><img src="ASSETS/iconos/behance.svg"
+                            alt="redes sociales" class="redes_banner decoracion-clara" target="_blank"></a>
+                    <a href="https://www.behance.net/angellymoras"><img src="ASSETS/iconos/behance-oscuro.svg"
+                            alt="redes sociales" class="redes_banner decoracion-oscura" target="_blank"></a>
+                    <a href="https://github.com/moras711"><img src="ASSETS/iconos/github.svg" alt="redes sociales"
+                            class="redes_banner decoracion-clara" target="_blank"></a>
+                    <a href="https://github.com/moras711"><img src="ASSETS/iconos/github.-oscuro.svg"
+                            alt="redes  sociales" class="redes_banner decoracion-oscura" target="_blank"></a>
+                </div>
+            </div>
+            <div class="navega">
+                <h4 class="footer-desc" id="hero-nave">Navega</h4>
+                <img src="ASSETS/iconos/linea-footer.svg" alt="linea horizontal de color café"
+                    class="linea-footer decoracion-clara">
+                <img src="ASSETS/iconos/linea-footer-oscuro.svg" alt="linea horizontal de color café"
+                    class="linea-footer decoracion-oscura">
+
+                <a href="#" class="a-footer link-hero" id="p-n1">Inicio</a>
+                <a href="#" class="a-footer link-sobre-mi" id="p-n2">Sobre mi</a>
+                <a href="#" class="a-footer link-proyectos" id="p-n3">Proyectos</a>
+                <a href="#" class="a-footer link-habilidades" id="p-n4">Habilidades</a>
+                <a href="#" class="a-footer link-contacto" id="p-n5">Contacto</a>
+            </div>
+        </article>
+        <article class="footer2">
+            <img src="ASSETS/iconos/footer.svg" alt="linea horizontal de color café"
+                class="linea-footer-abajo decoracion-clara">
+            <!-- <img src="ASSETS/iconos/footer-oscuro.svg" alt="linea horizontal de color café" class="linea-footer-abajo decoracion-oscura"> -->
+            <p class="p-footer" id="p-footer">© Todos los derechos reservados Diseñada y programada por Angelly Mora
+                Sánchez</p>
+        </article>
+    </footer>
+    <!-- Boton del modo oscuro -->
+    <button id="theme-toggle" aria-label="Cambiar tema" class="theme-btn">
+        <img src="ASSETS/iconos/oscuro.svg" alt="Modo oscuro" class="icono-modo" id="icono-modo">
+    </button>
+    <!-- Botón de idioma -->
+    <button id="language-toggle" class="language-toggle">
+        <img src="ASSETS/iconos/idioma.svg" alt="Cambiar idioma" class="icono-idioma decoracion-clara">
+        <img src="ASSETS/iconos/idioma-oscuro.svg" alt="Cambiar idioma" class="icono-idioma decoracion-oscura">
+    </button>
+    <!-- Botón de subir  -->
+    <button id="scroll-top" class="scroll-top">
+        <img src="ASSETS/iconos/subir.svg" alt="Subir" class="icono-subir decoracion-clara">
+        <img src="ASSETS/iconos/subir-oscuro.svg" alt="Subir" class="icono-subir decoracion-oscura">
+    </button>
+
+    <script src=" JS/menu.js"></script>
+    <script src="JS/parallax-img.js"></script>
+    <script src="JS/modo.js"></script>
+    <script src="JS/idioma.js"></script>
+    <Script src="JS/subir.js"></Script>
+    <script src="JS/navegar.js"></script>
+    <!-- AOS JS Efecto parallax -->
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1200, // duración base en ms
+            easing: 'ease-out-quart', // más suave que el "ease"
+            offset: 120, // distancia antes de activar
+            once: false, // permite que el efecto se active cada vez que el elemento entra en pantall
+            mirror: true // no vuelve a animar al hacer scroll hacia arriba
+        });
+    </script>
+    <script>
+        document.querySelectorAll('.pdf').forEach(boton => {
+            boton.addEventListener('click', e => {
+                e.preventDefault(); // evita que el enlace se abra
+                const link = document.createElement('a');
+                link.href = 'ASSETS/descargar/Angelly-Mora-Sanchez-CV.pdf'; // usa ruta correcta
+                link.download = 'Angelly-Mora-Sanchez-CV.pdf';
+                document.body.appendChild(link);
+                link.click();
+                document.body.removeChild(link);
+            });
+        });
+    </script>
+</body>
+
+
+</html>
