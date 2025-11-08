@@ -2102,15 +2102,20 @@ footer {
 
     /* Inicio de contacto */
     .icono-descargar-izquierda {
-        top: 2rem;
-        left: 7rem;
+        top: 0rem;
+        left: 2.5rem;
     }
 
     .icono-descargar-derecha {
-        top: 2rem;
-        right: 7rem;
+        top: 0rem;
+        right: 2.5rem;
     }
-
+    .destello-servi-abajo {
+    position: absolute;
+    top: 38rem;
+    width: 34px;
+    left: 1.5rem;
+}
     /* Final de contacto */
 }
 
