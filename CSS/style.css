@@ -936,7 +936,7 @@ h2 {
     text-align: center;
     padding: 1rem;
     /*dere, izq    arriba,abajo*/
-    transform: translate(-15px, -25px) rotate(10deg);
+    transform: translate(-15px, -15px) rotate(10deg);
 }
 
 .dos {
@@ -956,7 +956,7 @@ h2 {
     font-size: 20px;
     text-align: center;
     padding: 1rem;
-    transform: translate(-30px, -25px) rotate(30deg);
+    transform: translate(-22px, -15px) rotate(30deg);
 }
 
 .tres {
@@ -976,7 +976,7 @@ h2 {
     font-size: 20px;
     text-align: center;
     padding: 1rem;
-    transform: translate(30px, -25px) rotate(-25deg);
+    transform: translate(25px, -15px) rotate(-25deg);
 }
 
 .cuatro {
@@ -996,7 +996,7 @@ h2 {
     font-size: 20px;
     text-align: center;
     padding: 1rem;
-    transform: translate(30px, -25px) rotate(-25deg);
+    transform: translate(30px, 1px) rotate(-25deg);
 }
 
 .cinco {
@@ -1036,7 +1036,7 @@ h2 {
     font-size: 20px;
     text-align: center;
     padding: 1rem;
-    transform: translate(15px, -10px) rotate(-10deg);
+    transform: translate(15px, -5px) rotate(-10deg);
 }
 
 /* FINAL DE ICONOS IZQUIERDA */
@@ -1062,7 +1062,7 @@ h2 {
     font-size: 20px;
     text-align: center;
     padding: 1rem;
-    transform: translate(-30px, -25px) rotate(30deg);
+    transform: translate(-18px, -15px) rotate(30deg);
 }
 
 .ocho {
@@ -1082,7 +1082,7 @@ h2 {
     font-size: 20px;
     text-align: center;
     padding: 1rem;
-    transform: translate(5px, -20px) rotate(-5deg);
+    transform: translate(1px, -15px) rotate(-5deg);
 }
 
 .nueve {
@@ -1102,7 +1102,7 @@ h2 {
     font-size: 20px;
     text-align: center;
     padding: 1rem;
-    transform: translate(-15px, -25px) rotate(18deg);
+    transform: translate(-15px, -15px) rotate(18deg);
 }
 
 .diez {
@@ -1122,7 +1122,7 @@ h2 {
     font-size: 20px;
     text-align: center;
     padding: 1rem;
-    transform: translate(10px, -15px) rotate(-10deg);
+    transform: translate(2px, -2px) rotate(-10deg);
 }
 
 .once {
@@ -1162,7 +1162,7 @@ h2 {
     font-size: 20px;
     text-align: center;
     padding: 1rem;
-    transform: translate(-23px, -15px) rotate(18deg);
+    transform: translate(15px, -15px) rotate(-15deg);
 }
 
 /* efdectooo */
