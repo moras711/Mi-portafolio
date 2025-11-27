@@ -32,7 +32,7 @@ const translations = {
         'h3-services1':'Diseño & Branding',
         'p-services1':'Creación de logotipos e identidad visual, manual de marca (lineamientos de uso de logo, paleta de colores, tipografías, estilo visual), papelería corporativa (tarjetas, sobres, facturas, plantillas), diseño de empaques y etiquetas y rediseño y modernización de marca. Asesoría en branding digital.',
         'h3-services2':' Web & Digital',
-        'p-services2':'Creation of logos and visual identity, brand manual (logo usage guidelines, color palette, fonts, visual style), corporate stationery (cards, envelopes, invoices, templates), packaging and label design and brand redesign and modernization. Digital branding advice.',
+        'p-services2':'Diseño y desarrollo web responsivo, diseño UX/UI para apps y sitios, landing pages optimizadas para campañas y mantenimiento y actualización de sitios web.',
         'p-descarga':'Mi curriculum lo puedes encontrar por <a href="#" class="descargar">aquí</a>',
         'hero-contact':'Contáctame a través del siguiente formulario y <br> me comunicaré contigo tan pronto como <br> pueda.',
         'email':'Correo Electronico',

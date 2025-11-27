@@ -244,6 +244,7 @@ header {
 .banner-img {
     width: 450px;
     padding: 2rem;
+    pointer-events: none;
 }
 
 h1 {
@@ -382,8 +383,35 @@ span {
 .sobremi-img {
     width: 500px;
     padding: 1.5rem;
+    z-index: -1;
+    pointer-events: none;
 }
 
+.img-sobremi{
+    position: relative;
+}
+
+.image-shadow{
+    background-color: var(--fondo_principal);
+    width: 500px;
+    height: 50px;
+    bottom: 0%;
+    position: absolute;
+    filter: blur(10px);
+    z-index: 1;
+}
+.img-habilidades{
+    position: relative;
+}
+.image-shadow-h{
+    background-color: var(--fondo_principal);
+    width: 540px;
+    height: 50px;
+    bottom: -3.5%;
+    position: absolute;
+    filter: blur(10px);
+    z-index: 5;
+}
 h2 {
     font-family: var(--h1_titulos);
     color: var(--titulos);
@@ -426,7 +454,7 @@ h2 {
     width: 65px;
     height: 350px;
     overflow: hidden;
-    z-index: 1;
+    z-index: 2;
 }
 
 /* 
@@ -2692,6 +2720,14 @@ body.dark-mode .theme-btn {
     background-color: #2c2c2c;
     border-color: #f1d5e0;
     box-shadow: 0 0 10px rgba(241, 213, 224, 0.3);
+}
+
+body.dark-mode .image-shadow{
+    background-color: var(--fondo_oscuro);
+
+}
+body.dark-mode .image-shadow-h{
+    background-color: var(--fondo_oscuro);
 }
 
 body.dark-mode .theme-btn:hover {
